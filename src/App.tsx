@@ -33,7 +33,7 @@ const App: React.FC = () => {
 
       setWorkflows(workflows);
     } catch (err) {
-      //ToDo: replace with actual logger instead of console.log
+      //ToDo: replace with actual error message on screen instead of console.log
       console.log("error", err);
     }
 
