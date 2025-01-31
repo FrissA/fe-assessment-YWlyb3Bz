@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 
-import Header from "./components/Header";
-import Sidebar from "./components/SideBar";
+import Header from "@components/Header";
+import Sidebar from "@components/SideBar";
 import WorkflowTable from "@components/Workflow";
 import WorkflowContext from "@contexts/WorkflowContext";
 import Spinner from "@components/Spinner";
